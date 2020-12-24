@@ -1,0 +1,11 @@
+<template>
+    <lightning-button variant="brand"
+                      name="btnClickMe"
+                      label="Click Me!" onclick={onClick}>
+    </lightning-button>
+
+
+    <template if:true={dialogConfig.isVisible}>
+        <c-conf-dialog dialog-config={dialogConfig}></c-conf-dialog>
+    </template>
+</template>

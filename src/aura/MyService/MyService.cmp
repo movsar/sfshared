@@ -1,0 +1,6 @@
+<aura:component>
+    <aura:method name="sum" action="{!c.handleSum}">
+        <aura:attribute name="a" type="Integer" required="true"/>
+        <aura:attribute name="b" type="Integer" required="true"/>
+    </aura:method>
+</aura:component>
